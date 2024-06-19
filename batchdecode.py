@@ -29,7 +29,7 @@ def process_file(pbr_tool_path, file_path, total_files):
         print(f"Error processing {file_path}: {e}")
 
 def run_pbr_tool():
-    base_dir = r'C:\Users\Drizzle\Desktop\PBR Animations'
+    base_dir = r'./'
     models_anims_dir = os.path.join(base_dir, 'Models-Anims')
     pbr_tool_path = os.path.join(base_dir, 'PBR Tool', 'PBR-Tool.exe')
 

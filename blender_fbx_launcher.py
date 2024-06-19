@@ -4,14 +4,17 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from multiprocessing import Manager
 import sys
 
+# Get the directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
 # Directory containing the folders
-directory = "C:\\Users\\Drizzle\\Desktop\\PBR Animations\\Models-Anims"
+directory = os.path.join(current_dir, "Models-Anims")
 
 # Blender executable path
-blender_path = "C:\\Users\\Drizzle\\Desktop\\PBR Animations\\Blender 2.93\\blender.exe"
+blender_path = os.path.join(current_dir, "Blender 2.93", "blender.exe")
 
 # Blender script path
-blender_script = "C:\\Users\\Drizzle\\Desktop\\PBR Animations\\toFBX.py"
+blender_script = os.path.join(current_dir, "toFBX.py")
 
 def get_folder_paths(directory):
     return [os.path.join(directory, folder_name) for folder_name in os.listdir(directory) if os.path.isdir(os.path.join(directory, folder_name))]

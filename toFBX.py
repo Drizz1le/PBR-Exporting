@@ -12,8 +12,12 @@ animations_to_delete = [
     "tx_sleep", "tx_wakeup", "tx_wink"
 ]
 
-# Directory to export FBX files
-export_directory = "C:\\Users\\Drizzle\\Desktop\\PBR Animations\\pkmn-fbx"
+# Get the directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Blender executable path
+export_directory = os.path.join(current_dir, "pkmn-fbx")
+
 
 def delete_all_objects():
     # Select and delete all objects
