@@ -28,4 +28,9 @@ Paste those files into "Models-Anims"<br>
 This took me around 45 minutes for all of the pokemon, but it may vary depending on how good your PC is.
 4. All of your .FBX files should be in the pkmn-fbx folder
 
+## Notes:
+> Does not export with textures!<br>
+> May take a while on lower end PC's<br>
+> Gets rid of sleeping animations because they are only a frame long and just have their eyes shut. Also kinda broken
+
 ### If you found this useful please leave a star!
