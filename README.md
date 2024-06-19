@@ -9,7 +9,7 @@ A program used to convert the .SDR files, used in Pokémon Battle Revolution, to
 4. Download PBR Tool from the [Gamecube/Wii Rom hacking Discord](https://discord.gg/BtgdmH95v6) and go [Here](https://discord.com/channels/753272785286987897/753273128628518993/753275580484681882)
 5. Put this tool into the root directory, make sure to unzip it!
 6. Make a folder called "Models-Anims" and "pkmn-fbx"
-   IMAGE HERE
+![Folder Layout](folders.png)
 
 
 ## Dumping ROM
