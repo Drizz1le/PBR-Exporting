@@ -14,12 +14,12 @@ A program used to convert the .SDR files, used in Pokémon Battle Revolution, to
 
 ## Dumping ROM
 ### **You must rip your own rom from your own disc! I will not be providing a download link to the .iso file!**<br><br>
-Once you have ripped your rom, unpack it using PBR Tool by dragging and dropping it onto it. Make sure you install its prerequisites first!<br>
-Go to the folder with your extracted rom and go to .\Game Files\Dump\DATA\files<br><br>
+1. Once you have ripped your rom, unpack it using PBR Tool by dragging and dropping it onto it. Make sure you install its prerequisites first!<br>
+2. Go to the folder with your extracted rom and go to .\Game Files\Dump\DATA\files<br><br>
 In their you need to copy all files like this: pkx_###.fsys<br>
 -------------- OR --------------<br>
 Only the pokemon you want to export, the number is their national dex number.<br><br>
-Paste those files into "Models-Anims"<br>
+3. Paste those files into "Models-Anims"<br>
 
 ## Running the programs
 1. Run batchdecode.py, If you get an error your folders are not set up correctly and you need to fix it.
